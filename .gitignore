@@ -19,3 +19,12 @@ terraform/*.tfvars
 
 # editor / OS
 .DS_Store
+
+# Local artifacts / backups
+grading.json
+terraform/*.bak.*
+terraform/*.before-*
+terraform/plan.txt
+terraform/grading.json
+terraform/evidence/*.txt
+terraform/evidence/*.json
