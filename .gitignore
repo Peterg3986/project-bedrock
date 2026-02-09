@@ -40,3 +40,7 @@ terraform/plan.txt
 # Env files
 .env
 .env.*
+
+# Env files
+.env
+.env.*
