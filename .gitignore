@@ -61,3 +61,4 @@ terraform/grading.json
 .terraform.lock.hcl
 *.tfvars
 *.tfvars.json
+bedrock_asset_processor.zip
