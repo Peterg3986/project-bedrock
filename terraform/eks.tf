@@ -36,8 +36,8 @@ module "eks" {
   # Managed Node Group (create fresh)
   eks_managed_node_groups = {
     app = {
-      name           = "app"
-      subnet_ids     = aws_subnet.private[*].id
+      name                     = "app"
+      subnet_ids               = aws_subnet.private[*].id
       iam_role_use_name_prefix = false
 
 
