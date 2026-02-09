@@ -50,3 +50,14 @@ terraform-outputs.txt
 terraform/plan.txt
 terraform/*.tfvars
 grating.json
+
+# Sensitive / generated artifacts (do not commit)
+terraform-outputs.txt
+terraform/plan.txt
+terraform/grading.json
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+*.tfvars
+*.tfvars.json
