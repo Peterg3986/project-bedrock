@@ -28,3 +28,6 @@ terraform/plan.txt
 terraform/grading.json
 terraform/evidence/*.txt
 terraform/evidence/*.json
+
+# local terraform plan output (can contain access key IDs)
+terraform/plan.txt
