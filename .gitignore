@@ -44,3 +44,9 @@ terraform/plan.txt
 # Env files
 .env
 .env.*
+
+# Terraform generated / sensitive files
+terraform-outputs.txt
+terraform/plan.txt
+terraform/*.tfvars
+grating.json
