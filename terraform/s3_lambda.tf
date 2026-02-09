@@ -41,8 +41,8 @@ resource "aws_lambda_function" "asset_processor" {
   runtime       = "python3.11"
   handler       = "bedrock_asset_processor.lambda_handler"
 
-  filename         = "${path.module}/../lambda/bedrock_asset_processor.zip"
-  source_code_hash = filebase64sha256("${path.module}/../lambda/bedrock_asset_processor.zip")
+  filename         = "${path.module}/../bedrock_asset_processor.zip"
+  source_code_hash = filebase64sha256("${path.module}/../bedrock_asset_processor.zip")
 
   tags = {
     Project = local.project_tag
