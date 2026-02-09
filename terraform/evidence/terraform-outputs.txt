@@ -1,7 +1,0 @@
-assets_bucket_name = "bedrock-assets-alt-soe-025-0385"
-bedrock_dev_view_access_key_id = "AKIAUYURMJHEC46RZH5Y"
-bedrock_dev_view_secret_access_key = <sensitive>
-cluster_endpoint = "https://1316438B34CF2721691FE81CCAD2C550.gr7.us-east-1.eks.amazonaws.com"
-cluster_name = "bedrock"
-region = "us-east-1"
-vpc_id = "vpc-0029bd97c32422304"
