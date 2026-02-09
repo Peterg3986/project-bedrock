@@ -31,3 +31,6 @@ terraform/evidence/*.json
 
 # local terraform plan output (can contain access key IDs)
 terraform/plan.txt
+
+# Terraform plan output (can contain access key IDs)
+terraform/plan.txt
