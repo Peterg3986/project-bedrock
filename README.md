@@ -1,3 +1,23 @@
+## 📁 Repository Structure
+
+This repository contains the Project Bedrock infrastructure code.
+
+The Terraform root directory is located at:
+
+project-bedrock/terraform/
+
+All Terraform commands (init, plan, apply) should be run from this directory.
+
+Example:
+
+cd project-bedrock/terraform
+terraform init
+terraform apply
+
+The required grading output file is located at:
+
+project-bedrock/terraform/grading.json
+
 # Project Bedrock – EKS Infrastructure
 
 This project provisions AWS infrastructure using Terraform and deploys
