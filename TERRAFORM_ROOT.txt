@@ -1,0 +1,5 @@
+Terraform root directory:
+
+project-bedrock/terraform/
+
+Run all terraform commands from that directory.
