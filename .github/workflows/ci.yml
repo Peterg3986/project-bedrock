@@ -1,23 +1,12 @@
-name: CI
+name: Terraform CI
 
 on:
   push:
+    branches: [ "main" ]
   pull_request:
+    branches: [ "main" ]
 
 jobs:
-     - name: Install zip
-       run: sudo apt-get update -y && sudo apt-get install -y zip
-
-     - name: Ensure lambda zip exists (for validate)
-       run: |
-          if [ -f bedrock_asset_processor.zip ]; then
-            echo "Zip already present"
-          else
-            echo "placeholder" > /tmp/placeholder.txt
-            zip -j bedrock_asset_processor.zip /tmp/placeholder.txt
-          fi
-
-
   terraform-validate:
     runs-on: ubuntu-latest
     steps:
@@ -26,6 +15,18 @@ jobs:
 
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v3
+
+      - name: Install zip
+        run: sudo apt-get update -y && sudo apt-get install -y zip
+
+      - name: Ensure lambda zip exists (for validate)
+        run: |
+          if [ -f bedrock_asset_processor.zip ]; then
+            echo "Zip already present"
+          else
+            echo "placeholder" > /tmp/placeholder.txt
+            zip -j bedrock_asset_processor.zip /tmp/placeholder.txt
+          fi
 
       - name: Terraform fmt (check)
         run: terraform fmt -check -recursive
