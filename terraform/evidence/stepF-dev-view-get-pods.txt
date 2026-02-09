@@ -1,0 +1,11 @@
+NAME                              READY   STATUS    RESTARTS     AGE
+carts-75c948695b-xwxgp            1/1     Running   0            9h
+carts-dynamodb-7d79bdf955-hfcw4   1/1     Running   0            9h
+catalog-6f4fccdfc8-tg8r5          1/1     Running   2 (9h ago)   9h
+catalog-mysql-0                   1/1     Running   0            10h
+checkout-7bbbbdb795-chpgp         1/1     Running   0            10h
+checkout-redis-5ffd844f7-wscl7    1/1     Running   0            9h
+orders-785dbfd749-q4k8t           1/1     Running   2 (9h ago)   9h
+orders-postgresql-0               1/1     Running   0            9h
+orders-rabbitmq-0                 1/1     Running   0            10h
+ui-797cfb8f4-gmhtw                1/1     Running   0            10h

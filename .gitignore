@@ -1,0 +1,21 @@
+# Terraform
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/errored.tfstate
+terraform/state.remote.backup.tfstate
+terraform/crash.log
+terraform/crash.*.log
+
+# tfvars (often secrets)
+terraform/*.tfvars
+
+# kube/aws creds
+.aws/
+.kube/
+*.pem
+*accessKeys*.csv
+
+# editor / OS
+.DS_Store

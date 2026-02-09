@@ -1,0 +1,2 @@
+Tried deleting pod: carts-75c948695b-xwxgp
+Error from server (Forbidden): pods "carts-75c948695b-xwxgp" is forbidden: User "bedrock-dev-view" cannot delete resource "pods" in API group "" in the namespace "retail-app"

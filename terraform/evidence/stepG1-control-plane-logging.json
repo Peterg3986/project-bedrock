@@ -1,0 +1,12 @@
+[
+    {
+        "types": [
+            "api",
+            "audit",
+            "authenticator",
+            "controllerManager",
+            "scheduler"
+        ],
+        "enabled": true
+    }
+]
